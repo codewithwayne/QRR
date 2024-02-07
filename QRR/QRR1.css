@@ -1,0 +1,65 @@
+body{
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	background-image: url(back3.jpg);
+	font-family: Arial, sans-serif;
+}
+/*background color for the nav bar*/
+.topnav{
+	background-color: ;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+}
+/*styling for the links inside the nav bar*/
+.topnav a{
+	float: right;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	text-align: center;
+	text-decoration: blink;
+	color: white;
+}
+.topnav a:hover{
+	background-color: white;
+	color: black;
+}
+.topnav a.active{
+	background-color: white;
+}
+.h1{
+	color: black;
+}
+
+
+.cont{
+	position: relative;
+}
+.icont{
+	height: 200px;
+	overflow: hidden;
+}
+.img1{
+	width: 50%;
+	height: 50%;
+	display: block;
+}
+.head1{
+	position: relative;
+	top: 25%;
+	left: 78%;
+	transform: translate(-50%, -50%);
+	color: white;
+	 font-family: 'Lemon', serif;
+	font-size: 50px;
+}
+.head2{
+	position: relative;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+}
+.p1{
+	color: white;
+}

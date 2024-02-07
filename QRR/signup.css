@@ -1,0 +1,77 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url(back3.jpg);
+}
+.sh1{
+	color: white;
+	text-align: center;
+}
+.form{
+	color: white;
+}
+.topnav{
+	
+	overflow: hidden;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+}
+.topnav a{
+	float: right;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	text-align: center;
+	text-decoration: blink;
+	color: white;
+}
+.topnav a:hover{
+	background-color: white;
+	color: black;
+}
+.topnav a.active{
+	background-color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sig {
+  position: relative;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px ridge grey;
+  width: 300px;
+}
+
+
+
+.form {
+  margin: 10px 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px ridge grey;
+  border-radius: 4px;
+}
+
+.submit input {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
